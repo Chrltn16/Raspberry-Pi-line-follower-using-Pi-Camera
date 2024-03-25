@@ -12,7 +12,7 @@ This project is aimed at building an autonomous line-following robot using a Ras
 
 ## Hardware Requirements
 
-- Raspberry Pi (tested on Raspberry Pi 4 Model B)
+- Raspberry Pi (tested on Raspberry Pi 3 Model B)
 - PiCamera module
 - Motor driver (L293D)
 - DC motors and wheels
