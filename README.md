@@ -1,7 +1,7 @@
 # Raspberry-Pi-line-follower-using-Pi-Camera
 # Autonomous Line Following Robot with Raspberry Pi
 
-This project is aimed at building an autonomous line-following robot using a Raspberry Pi and a PiCamera module. The robot uses computer vision techniques to detect and follow black lines on a surface.
+This project is aimed at building an autonomous line-following robot using a Raspberry Pi and a PiCamera module. The robot uses computer vision techniques to detect and follow black lines on a white surface.
 
 ## Features
 
