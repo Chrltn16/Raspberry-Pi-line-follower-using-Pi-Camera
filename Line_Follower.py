@@ -96,6 +96,10 @@ for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=
             cv2.putText(image, str(error), (10, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
             cv2.line(image, (int(x_min), 90), (int(x_min), 110), (255, 0, 0), 3)
             
+            if len(contours_blk) == 0:
+                Motor_Steer (m1, m2, 0 ,0)
+    
+            
     # Display the processed image with overlays
     cv2.imshow("Original with Line", image)
     rawCapture.truncate(0)
